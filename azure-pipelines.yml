@@ -15,16 +15,13 @@ resources:
     type: github
     name: andrebriggs/az-pipeline-yaml-dest
     endpoint: andrebriggs
-  - repository: self2
+  - repository: self
     type: github
     name: andrebriggs/az-pipeline-yaml-source
     endpoint: andrebriggs
 
 steps:
 - checkout: self
-  persistCredentials: true
-  clean: true
-- checkout: self2
   persistCredentials: true
   clean: true
 
