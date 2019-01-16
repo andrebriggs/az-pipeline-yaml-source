@@ -11,7 +11,7 @@ pool:
 
 resources:         
   repositories:
-  - repository: destinationRepo
+  - repository: self
     type: github
     name: andrebriggs/az-pipeline-yaml-dest
     endpoint: andrebriggs
