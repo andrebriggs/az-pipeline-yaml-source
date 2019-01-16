@@ -19,7 +19,6 @@ resources:
   - pipeline: fabrikate-acme-company
     source: andrebriggs.fabrikate-acme-company
 
-
 steps:
 - checkout: self
   persistCredentials: true
