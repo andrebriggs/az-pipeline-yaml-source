@@ -10,11 +10,6 @@ pool:
   vmImage: 'Ubuntu-16.04'
 
 resources:         
-  repositories:
-  - repository: self
-    type: github
-    name: andrebriggs/az-pipeline-yaml-dest
-    endpoint: andrebriggs
   pipelines:
   - pipeline: fabrikate-acme-company
     source: andrebriggs.fabrikate-acme-company
