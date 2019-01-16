@@ -21,5 +21,4 @@ steps:
   persistCredentials: true
   clean: true
 
-- bash: |
-  pwd
+- bash: pwd
