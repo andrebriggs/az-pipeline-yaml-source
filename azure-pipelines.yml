@@ -23,4 +23,3 @@ steps:
 
 - bash: |
   pwd
-  ls- a
