@@ -17,7 +17,7 @@ resources:
     endpoint: andrebriggs
 
 steps:
-- checkout: destinationRepo
+- checkout: self
   persistCredentials: true
   clean: true
 
