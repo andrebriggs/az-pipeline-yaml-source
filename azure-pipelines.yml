@@ -15,10 +15,10 @@ resources:
     type: github
     name: andrebriggs/az-pipeline-yaml-dest
     endpoint: andrebriggs
-  - repository: self
-    type: github
-    name: andrebriggs/az-pipeline-yaml-source
-    endpoint: andrebriggs
+  pipelines:
+  - pipeline: fabrikate-acme-company
+    source: andrebriggs.fabrikate-acme-company
+
 
 steps:
 - checkout: self
